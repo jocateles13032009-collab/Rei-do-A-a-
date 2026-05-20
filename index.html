@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👑 Rei do Açaí</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="logo">👑 Rei do Açaí</a>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <button class="cart-btn" id="abrir-carrinho">
+      🛒 <span id="cart-count">0</span>
+    </button>
+
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div>
+      <h1>O melhor açaí da cidade 👑</h1>
+
+      <p class="lead">
+        Cremoso, gelado e cheio de toppings incríveis.
+      </p>
+
+      <a href="cardapio.html" class="btn">
+        Ver cardápio
+      </a>
+    </div>
+
+    <div class="carousel-container">
+
+    <!-- Slide 1 -->
+    <div class="slide fade">
+        <img src="img/promocao-casal.png" alt="Promoção 1">
+        <div class="caption">Combo Casal -2 açaís 500ml + toppings 35,00R$ </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide fade">
+        <img src="img/Nutella.png" alt="Promoção 2">
+        <div class="caption">Açaí Especial - Nutella + Morango + Leite condensado 25,00R$</div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide fade">
+        <img src="img/copo novo.png" alt="Promoção 3">
+        <div class="caption">Açaí 500ml + 4 Acompanhamentos 15,00R$</div>
+    </div>
+
+    <!-- Botões de navegação -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Pontos indicativos -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</div>     
+</section>
+
+<section id="sobre" class="section">
+  <div class="container">
+
+    <h2>Sobre nós</h2>
+
+    <p>
+      O 👑 <b>Rei do Açaí</b> oferece a melhor experiência em açaí,
+      com ingredientes frescos, diversos acompanhamentos e entrega rápida.    
+    </p>
+  </div>
+</section>
+
+<section id="contato" class="section section--alt">
+  <div class="container">
+
+    <h2>Contato</h2>
+
+    <form class="form">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Mensagem"></textarea>
+
+      <button class="btn">Enviar</button>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="ano"></span> 👑 Rei do Açaí</p>
+    <p>© <span id="numero"></span> +55 (11) 1234-5678</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.9751998334177!2d-46.78167852483975!3d-23.641059178745145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5385d545699f%3A0x679406ba9e867572!2zVm9jYcOnw6NvIC0gU2VkZQ!5e0!3m2!1spt-BR!2sbr!4v1779302916256!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</footer>
+
+<script src="Js/carosel.js"></script>
+<script src="Js/carrinho.js"></script>
+<script src="Js/app.js"></script>
+</body>
+  </html>
