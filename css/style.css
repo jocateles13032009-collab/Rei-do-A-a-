@@ -140,12 +140,14 @@ body {
 }
 /*Carrossel */
 .carousel-container {
+    width: min(100%, 720px);
     max-width: 100%;
     position: relative;
     margin: 10px auto;
     overflow: hidden;
-    border-radius: 8px; /* Cantos arredondados para um ar moderno */
+    border-radius: 20px; /* Cantos arredondados para um ar moderno */
     padding-bottom: 50px;
+    box-shadow: var(--sombra);
 }
 
 .slide {
@@ -211,7 +213,7 @@ body {
     border-radius: 50%;
     display: inline-block;
 }
-.active, .dot:hover { background-color: #d35400; } /* Cor de destaque (Laranja Padaria) */
+.active, .dot:hover { background-color: #fffb0f; } /* Cor de destaque (Laranja Padaria) */
 
 /* Animação Fade */
 .fade {
