@@ -4,7 +4,7 @@ ITENS = [
     nome: "Açaí 300ml",
     descricao: "2 acompanhamentos inclusos",
     preco: 10,
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67YtONERbXiD9ZeyhN5DlWm1W_SUShshXng&s"
+    imagem: "img/500 ml.png"
   },
 
   {
